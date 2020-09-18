@@ -1,0 +1,16 @@
+{
+  "name": "git-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node ./index.js",
+    "dev": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "silly-datetime": "^0.1.2"
+  }
+}
