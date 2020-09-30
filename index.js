@@ -14,6 +14,7 @@ app.all('*', (req, res, next) => {
   next();
 });
 app.use(express.static(path.join(__dirname, 'log')))
+app.use(express.static(path.join(__dirname, '../'+config.web)))
 
 app.use('/auto/git', require('./routes/git'));
 
